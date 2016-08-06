@@ -1,0 +1,22 @@
+{
+  "name": "templatewriter",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-concat": "^0.1.6",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-critical": "^0.2.1",
+    "grunt-htmllint": "^0.2.7",
+    "grunt-inline": "^0.3.6",
+    "grunt-jsvalidate": "^0.2.2",
+    "grunt-newer": "^1.2.0",
+    "grunt-wiredep": "^3.0.1",
+    "load-grunt-tasks": "~0.1.0"
+  },
+  "dependencies": {}
+}

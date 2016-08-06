@@ -1,0 +1,26 @@
+{
+  "name": "templatebuilder",
+  "description": "A bower and grunt skeleton",
+  "main": "index.html",
+  "authors": [
+    "DecentM <DecentM@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DecentM/templatewriter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "jQuery": "^3.1.0",
+    "material-design-lite": "^1.1.3",
+    "modernizr": "^3.3.1",
+    "instantclick": "^3.1.0",
+    "normalize-css": "normalize.css#^4.2.0"
+  }
+}
