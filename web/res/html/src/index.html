@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" type="text/css" href="/res/css/dist/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/res/css/src/critical.css">
-    <link rel="stylesheet" type="text/css" href="/res/css/src/main.css"> </head>
+    <link rel="stylesheet" type="text/css" href="../../../res/css/dist/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/res/css/src/dynamic.css">
+    <link rel="stylesheet" type="text/css" href="../../../res/css/src/static.css"> </head>
 
 <body>
     <div class="pagewrap">
@@ -37,13 +37,7 @@
                         *|INTERESTED:Lang:Hu|*Szia *|FNAME|*!*|END:INTERESTED|*
                         *|INTERESTED:Lang:Sk|*Ahoj *|FNAME|*!*|END:INTERESTED|*
                         *|INTERESTED:Lang:Cz|*Dobrý den *|FNAME|*,*|END:INTERESTED|* 
-                    </h4> *|INTERESTED:Lang:Hu|*
-                    <p>Ez a Testbirds e heti hírlevele egyenesen a kemencéből.</p>
-                    <p>Szűrve, hogy neked már csak a legjobbakat kelljen elolvasnod!</p>*|END:INTERESTED|* *|INTERESTED:Lang:Sk|*
-                    <p>Posielame Ti nový Testbirds tech výber s najzaujímavejšími novinkami digitálneho sveta.</p>
-                    <p>Náš tím celý týždeň zbiera najnovšie tech články, ktoré Ti každý týždeň pošleme zozbierané do jedného výberu. My sme už prečítali všetky, Tebe stačí už len tie najlepšie ;)</p>*|END:INTERESTED|* *|INTERESTED:Lang:Cz|*
-                    <p>Zde je výběr nejzajímavějších a nejnovějších novinek z digitálního světa od Testbirds!</p>
-                    <p>Každý týden dáváme dohromady významné technologické články, které by Vás mohli zajímat, a které Vám doručíme v takovémto balíčku. Vše jsme již pročetli, takže se můžete soustředit jen na výběr těch nejlepších.</p>*|END:INTERESTED|*
+                    </h4> ##EMAILINTRO##
                     <div class="editors">
                         <div class="s-aright">
                             <div class="f-plist">
@@ -61,26 +55,28 @@
             <div class="container emailcontent">
                 <!-- BLOCK START -->
                 <div class="categoryholder">
-                    <div class="categorytitle s-acenter"> <span>Category</span> </div>
+                    <div class="categorytitle s-acenter"> <span>
+                        ##CATEGORYTITLE##
+                    </span> </div>
                 </div>
                 <!-- BLOCK END -->
             </div>
             <div class="container emailcontent">
                 <!-- BLOCK START -->
                 <div class="row s-acard">
-                    <div class="col-tn-12 col-xs-4 col-md-4 col-lg-4"> <a class="maintitle s-bold" href="" target="_blank">Hmmm...</a>
-                        <p>It looks like we forgot to edit this text before sending out to *|LIST_SUBSCRIBERS|* people. In this case, you can let us know by replying to this e-mail.</p>
-                        <p>Thanks, and we promise that we'll do my best to avoid being so clumsy next time!</p>
+                    <div class="col-tn-12 col-xs-4 col-md-4 col-lg-4"> <a class="maintitle s-bold" href="" target="_blank">##ARTICLETITLE##</a>
+                        <div> ##ARTICLEDESCRIPTION## </div>
                     </div>
                     <div class="col-tn-12 col-xs-8 col-md-8 col-lg-8 imgholder s-acenter"> <img src="https://gallery.mailchimp.com/6c2e8cb2eb78777979c074f79/images/2852fedd-217e-44ad-ab80-fcf995b58dbe.png"> </div>
                 </div>
                 <!-- BLOCK END -->
                 <!-- BLOCK START -->
                 <div class="container s-boxin">
-                    <hr class="separator minor"> </div>
+                    <div class="separator"> </div></div>
                 <!-- BLOCK END -->
                 <!-- BLOCK START -->
-                <hr class="separator major">
+                <div>
+                    <div class="separator"></div> </div>
                 <!-- BLOCK END -->
                 <div class="bloglinks">
                     <div>Lesd meg a Testbirds blogot még több tartalomért!</div>

@@ -8,10 +8,6 @@ a {
     text-decoration: none !important;
 }
 
-a:hover {
-    color: #82b999;
-}
-
 .s-tbgreen {
     color: #1f777a
 }
@@ -46,35 +42,24 @@ a:hover {
 }
 
 .emailcontent .container-fluid {
-    margin-top: 20px;
-    margin-bottom: 20px
-}
-
-.pagewrap > .container-fluid > *:last-child {
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .s-aright {
     text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end
 }
 
 .f-plist {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-bottom: -15px
-}
-
-.f-plist:before {
-    content: "-\00a0"
-}
-
-.f-plist::first-child::before {
-    content: "- "
-}
-
-.f-plist>p:not(:last-child):after {
-    content: ",\00a0"
 }
 
 .emailintrol p {
@@ -87,12 +72,18 @@ a:hover {
 }
 
 .s-abottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end
 }
 
 .s-acenter {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center
 }
 
@@ -105,11 +96,7 @@ a:hover {
 }
 
 .categorytitle {
-    text-transform: lowercase
-}
-
-.categorytitle:first-letter {
-    text-transform: capitalize
+    text-transform: lowercase;
 }
 
 .categoryholder {
@@ -129,20 +116,8 @@ a:hover {
     max-height: 250px
 }
 
-.separator {
-    background: #1f777a
-}
-
-.minor {
-    height: 2px
-}
-
 .s-boxin {
     width: 90%
-}
-
-.major {
-    height: 4px
 }
 
 .bloglinks {
@@ -162,6 +137,7 @@ a:hover {
     padding-left: 12px;
     padding-right: 12px
 }
+
 .footer {
     color: #656565;
     font-family: Helvetica;
