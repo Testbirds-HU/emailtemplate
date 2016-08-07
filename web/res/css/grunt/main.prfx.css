@@ -15,12 +15,8 @@ body {
     font-weight: 700
 }
 
-.s-rbig {
-    font-size: 22px
-}
-
 .s-big {
-    font-size: 16px;
+    font-size: 22px
 }
 
 .s-small {
@@ -42,13 +38,18 @@ body {
 }
 .s-aright {
     text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:flex-end;
+    -webkit-box-pack:end;
+        -ms-flex-pack:end;
+            justify-content:flex-end;
 }
 
 .f-plist {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    margin-bottom: -15px
 }
 
 .f-plist:before {
@@ -72,12 +73,18 @@ body {
 }
 
 .s-abottom {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items:flex-end;
+    -webkit-box-align:end;
+        -ms-flex-align:end;
+            align-items:flex-end;
 }
 
 .s-acenter {
-    align-items:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     text-align: center;
 }
 .categorytitle {
@@ -87,45 +94,8 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
-.categorytitle {
-    text-transform: lowercase;
-}
-.categorytitle:first-letter {
-    text-transform: capitalize;
-}
 
 .categoryholder {
     padding: 10px;
     border-top: 5px #1f777a solid;
-}
-
-.s-acard {
-    color: black;
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: justify;
-}
-
-.imgholder, .imgholder img {
-    max-height: 250px;
-}
-
-
-
-.separator {
-    background: #1f777a;
-    height: 2px
-}
-
-.s-boxin {
-    width: 90%
-}
-
-.s-1h {
-    line-height: 24px
-}
-
-.separator.major {
-    height: 4px
 }
