@@ -14,17 +14,14 @@
     content: ",\00a0"
 }
 
+.categorytitle {
+    text-transform: lowercase!important;
+}
+
 .categorytitle:first-letter {
-    text-transform: capitalize;
+    text-transform: capitalize !important;
 }
 
 a:hover {
     color: #82b999;
-}
-
-.separator {
-    background: #1f777a;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 5px;
 }

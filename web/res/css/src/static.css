@@ -1,6 +1,6 @@
 body {
     background-color: #e6e6e6;
-    font-family: arial, helvetica neue, helvetica, sans-serif
+    font-family: "Helvetica", "Arial", "Helvetica neue", sans-serif
 }
 
 a {
@@ -77,14 +77,13 @@ a {
 
 .categorytitle {
     color: #1f777a;
-    font-family: Helvetica;
     line-height: 24px;
     font-size: 16px;
     font-weight: 700
 }
 
 .categorytitle {
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 .categoryholder {
@@ -106,6 +105,13 @@ a {
 
 .s-boxin {
     width: 90%
+}
+
+.separator {
+    background: #1f777a;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 5px;
 }
 
 .bloglinks {
@@ -135,5 +141,5 @@ a {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
 }

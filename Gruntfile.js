@@ -67,7 +67,6 @@ module.exports = function(grunt){
 	grunt.registerTask('default', [
 		'autoprefixer',
 		'cssmin',
-		'newer:imagemin',
-		'emailBuilder'
+		'newer:imagemin'
 	]);
 };
