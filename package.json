@@ -5,9 +5,11 @@
     "grunt": "~0.4.0",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-gotohead": "^1.1.5",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-email-builder": "^4.0.0",
     "grunt-htmllint": "^0.2.7",
+    "grunt-inline": "^0.3.6",
     "grunt-juice-email": "^0.1.4",
     "grunt-newer": "^1.2.0",
     "load-grunt-tasks": "~0.1.0"

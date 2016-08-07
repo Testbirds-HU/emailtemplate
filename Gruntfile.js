@@ -8,11 +8,21 @@ module.exports = function(grunt){
         	// task configuration goes here
 
 // BEGIN HTML
-		emailBuilder: {
-			main: {
-				files: {
-					'web/res/html/dist/index.html': 'web/res/html/src/index.html'
-				}
+		gotohead: {
+			my_task: {
+				options: {
+					jade: false,
+					tag: 'style'
+				},
+				files: [
+					{
+						orig: 'web/res/html/src/index.html',
+						dest: 'web/res/html/dist/index.html',
+						src: [
+							'web/res/css/dist/static.min.css', 'web/res/css/dist/dynamic.min.css' 
+						]
+					}
+				]
 			}
 		},
 // END HTML
@@ -67,6 +77,7 @@ module.exports = function(grunt){
 	grunt.registerTask('default', [
 		'autoprefixer',
 		'cssmin',
-		'newer:imagemin'
+		'newer:imagemin',
+		'gotohead'
 	]);
 };
