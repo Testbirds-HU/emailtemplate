@@ -19,15 +19,31 @@
             <div class="container">
                 <div class="row s-title s-tbgreen s-abottom">
                     <div class="col-xs-6 col-md-6 col-lg-6">
-                        <h4 class="b s-rbig s-bold">Testbirds</h4> <span class="s-bold">Tech merítés</span> </div>
-                    <div class="col-xs-6 col-md-6 col-lg-6 s-small s-aright s-abottom"> <a href="*|ARCHIVE|*">Az e-mail megnyitása böngészőben</a> </div>
+                        <h4 class="b s-rbig s-bold">Testbirds</h4> <span class="s-bold">
+                            *|INTERESTED:Lang:Hu|*Tech merítés*|END:INTERESTED|*
+                            *|INTERESTED:Lang:Sk|*Tech výber*|END:INTERESTED|*
+                            *|INTERESTED:Lang:Sk|*Tech scoop*|END:INTERESTED|*
+                        </span> </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 s-small s-aright s-abottom"> <a href="*|ARCHIVE|*" target="_blank">
+                            *|INTERESTED:Lang:Hu|* Az e-mail megtekintése böngészőben *|END:INTERESTED|*
+                            *|INTERESTED:Lang:Sk|* Prečítaťsprávu v prehliadači *|END:INTERESTED|*
+                            *|INTERESTED:Lang:Cz|* View this e-mail in your browser *|END:INTERESTED|*
+                        </a> </div>
                 </div>
             </div>
             <div class="container emailintro emailcontent">
                 <div class="container-fluid">
-                    <h4 class="s-title s-tbgreen s-big s-bold">Szia *|FNAME|*!</h4>
-                    <p>Ez a Testbirds e heti hírlevele egyenesen a kemencéből. Szűrve, hogy neked már csak a legjobbakat kelljen elolvasnod!</p>
-                    <p>Kellemes olvasgatást!</p>
+                    <h4 class="s-title s-tbgreen s-big s-bold">
+                        *|INTERESTED:Lang:Hu|*Szia *|FNAME|*!*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Sk|*Ahoj *|FNAME|*!*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Cz|*Dobrý den *|FNAME|*,*|END:INTERESTED|* 
+                    </h4> *|INTERESTED:Lang:Hu|*
+                    <p>Ez a Testbirds e heti hírlevele egyenesen a kemencéből.</p>
+                    <p>Szűrve, hogy neked már csak a legjobbakat kelljen elolvasnod!</p>*|END:INTERESTED|* *|INTERESTED:Lang:Sk|*
+                    <p>Posielame Ti nový Testbirds tech výber s najzaujímavejšími novinkami digitálneho sveta.</p>
+                    <p>Náš tím celý týždeň zbiera najnovšie tech články, ktoré Ti každý týždeň pošleme zozbierané do jedného výberu. My sme už prečítali všetky, Tebe stačí už len tie najlepšie ;)</p>*|END:INTERESTED|* *|INTERESTED:Lang:Cz|*
+                    <p>Zde je výběr nejzajímavějších a nejnovějších novinek z digitálního světa od Testbirds!</p>
+                    <p>Každý týden dáváme dohromady významné technologické články, které by Vás mohli zajímat, a které Vám doručíme v takovémto balíčku. Vše jsme již pročetli, takže se můžete soustředit jen na výběr těch nejlepších.</p>*|END:INTERESTED|*
                     <div class="editors">
                         <div class="s-aright">
                             <div class="f-plist">
@@ -52,11 +68,11 @@
             <div class="container emailcontent">
                 <!-- BLOCK START -->
                 <div class="row s-acard">
-                    <div class="col-tn-12 col-md-4 col-lg-4"> <a class="maintitle">Hmmm...</a>
+                    <div class="col-tn-12 col-xs-4 col-md-4 col-lg-4"> <a class="maintitle s-bold" href="" target="_blank">Hmmm...</a>
                         <p>It looks like we forgot to edit this text before sending out to *|LIST_SUBSCRIBERS|* people. In this case, you can let us know by replying to this e-mail.</p>
                         <p>Thanks, and we promise that we'll do my best to avoid being so clumsy next time!</p>
                     </div>
-                    <div class="col-tn-12 col-md-8 col-lg-8 imgholder s-acenter"> <img src="https://gallery.mailchimp.com/6c2e8cb2eb78777979c074f79/images/2852fedd-217e-44ad-ab80-fcf995b58dbe.png"> </div>
+                    <div class="col-tn-12 col-xs-8 col-md-8 col-lg-8 imgholder s-acenter"> <img src="https://gallery.mailchimp.com/6c2e8cb2eb78777979c074f79/images/2852fedd-217e-44ad-ab80-fcf995b58dbe.png"> </div>
                 </div>
                 <!-- BLOCK END -->
                 <!-- BLOCK START -->
@@ -86,23 +102,19 @@
                         <p>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|* *|END:IF|*</p>
                     </div>
                     <div class="address">
-                        <div class="s-bold">
-                            *|INTERESTED:Lang:Hu|*<p>Postacímünk:</p>*|END:INTERESTED|*
-                            *|INTERESTED:Lang:Sk|*<p>Our mailing address is:</p>*|END:INTERESTED|*
-                            *|INTERESTED:Lang:Cz|*<p>Our mailing address is:</p>*|END:INTERESTED|* 
-                        </div>
+                        <div class="s-bold"> *|INTERESTED:Lang:Hu|*
+                            <p>Postacímünk:</p>*|END:INTERESTED|* *|INTERESTED:Lang:Sk|*
+                            <p>Our mailing address is:</p>*|END:INTERESTED|* *|INTERESTED:Lang:Cz|*
+                            <p>Our mailing address is:</p>*|END:INTERESTED|* </div>
                         <p>*|HTML:LIST_ADDRESS_HTML|*</p>
                     </div>
-                    <div class="unsubscribe">
-                        *|INTERESTED:Lang:Hu|*<p>Meg akarod változtatni ezeknek az e-maileknek az érkezését?</p>*|END:INTERESTED|*
-                        *|INTERESTED:Lang:Sk|*<p>Want to change how you receive these emails?</p>*|END:INTERESTED|*
-                        *|INTERESTED:Lang:Cz|*<p>Want to change how you receive these emails?</p>*|END:INTERESTED|*
-                        *|INTERESTED:Lang:Hu|*<p><a href="*|UPDATE_PROFILE|*" target="_blank">Frissítheted a beállításaidat</a>, vagy <a href="*|UNSUB|*" target="_blank">leiratkozhatsz erről a listáról</a></p>*|END:INTERESTED|*
-                        *|INTERESTED:Lang:Sk|*<p><a href="*|UPDATE_PROFILE|*" target="_blank">You can update your preferences</a> or <a href="*|UNSUB|*" target="_blank">unsubscribe from this list</a></p>*|END:INTERESTED|*
-                        *|INTERESTED:Lang:Cz|*<p><a href="*|UPDATE_PROFILE|*" target="_blank">You can update your preferences</a> or <a href="*|UNSUB|*" target="_blank">unsubscribe from this list</a></p>*|END:INTERESTED|* 
-                    </div>
-                    *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|* 
-                </div>
+                    <div class="unsubscribe"> *|INTERESTED:Lang:Hu|*
+                        <p>Meg akarod változtatni ezeknek az e-maileknek az érkezését?</p>*|END:INTERESTED|* *|INTERESTED:Lang:Sk|*
+                        <p>Want to change how you receive these emails?</p>*|END:INTERESTED|* *|INTERESTED:Lang:Cz|*
+                        <p>Want to change how you receive these emails?</p>*|END:INTERESTED|* *|INTERESTED:Lang:Hu|*
+                        <p><a href="*|UPDATE_PROFILE|*" target="_blank">Frissítheted a beállításaidat</a>, vagy <a href="*|UNSUB|*" target="_blank">leiratkozhatsz erről a listáról</a></p>*|END:INTERESTED|* *|INTERESTED:Lang:Sk|*
+                        <p><a href="*|UPDATE_PROFILE|*" target="_blank">You can update your preferences</a> or <a href="*|UNSUB|*" target="_blank">unsubscribe from this list</a></p>*|END:INTERESTED|* *|INTERESTED:Lang:Cz|*
+                        <p><a href="*|UPDATE_PROFILE|*" target="_blank">You can update your preferences</a> or <a href="*|UNSUB|*" target="_blank">unsubscribe from this list</a></p>*|END:INTERESTED|* </div> *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|* </div>
             </div>
         </div>
     </div>
