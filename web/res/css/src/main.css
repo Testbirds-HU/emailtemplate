@@ -1,10 +1,19 @@
 body {
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     font-family: arial, helvetica neue, helvetica, sans-serif
 }
 
-.s-tbgreen {
+a {
     color: #1f777a;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #82b999;
+}
+
+.s-tbgreen {
+    color: #1f777a
 }
 
 .s-title {
@@ -20,7 +29,7 @@ body {
 }
 
 .s-big {
-    font-size: 16px;
+    font-size: 16px
 }
 
 .s-small {
@@ -33,17 +42,22 @@ body {
 }
 
 .emailcontent {
-    background: #fff;
+    background: #fff
 }
 
 .emailcontent .container-fluid {
     margin-top: 20px;
     margin-bottom: 20px
 }
+
+.pagewrap > .container-fluid > *:last-child {
+    padding-bottom: 20px;
+}
+
 .s-aright {
     text-align: right;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end
 }
 
 .f-plist {
@@ -54,67 +68,68 @@ body {
 .f-plist:before {
     content: "-\00a0"
 }
+
 .f-plist::first-child::before {
     content: "- "
 }
 
-.f-plist > p:not(:last-child):after {
+.f-plist>p:not(:last-child):after {
     content: ",\00a0"
-}
-
-.szerzok {
-    
 }
 
 .s-comment {
     color: #727272;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .s-abottom {
-    display:flex;
-    align-items:flex-end;
+    display: flex;
+    align-items: flex-end
 }
 
 .s-acenter {
-    align-items:center;
-    text-align: center;
+    align-items: center;
+    text-align: center
 }
+
 .categorytitle {
     color: #1f777a;
     font-family: Helvetica;
     line-height: 24px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 700
 }
+
 .categorytitle {
-    text-transform: lowercase;
+    text-transform: lowercase
 }
+
 .categorytitle:first-letter {
-    text-transform: capitalize;
+    text-transform: capitalize
 }
 
 .categoryholder {
     padding: 10px;
-    border-top: 5px #1f777a solid;
+    border-top: 5px #1f777a solid
 }
 
 .s-acard {
     color: black;
     font-size: 14px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: justify;
+    text-align: justify
 }
 
-.imgholder, .imgholder img {
-    max-height: 250px;
+.imgholder,
+.imgholder img {
+    max-height: 250px
 }
-
-
 
 .separator {
-    background: #1f777a;
+    background: #1f777a
+}
+
+.minor {
     height: 2px
 }
 
@@ -122,10 +137,31 @@ body {
     width: 90%
 }
 
-.s-1h {
-    line-height: 24px
+.major {
+    height: 4px
 }
 
-.separator.major {
-    height: 4px
+.bloglinks {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #1f777a;
+    padding-top: 10px;
+}
+
+.sociallinks a>img {
+    height: 24px
+}
+
+.sociallinks>a {
+    padding-left: 12px;
+    padding-right: 12px
+}
+.footer {
+    color: #656565;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
 }

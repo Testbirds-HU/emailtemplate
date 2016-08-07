@@ -15,23 +15,18 @@
 
 <body>
     <div class="pagewrap">
-        <div clas="container-fluid">
+        <div class="container-fluid">
             <div class="container">
                 <div class="row s-title s-tbgreen s-abottom">
                     <div class="col-xs-6 col-md-6 col-lg-6">
-                        <h4 class="b s-big s-bold">Testbirds</h4>
-                        <span class="s-bold">Tech merítés</span>
-                    </div>
-                    <div class="col-xs-6 col-md-6 col-lg-6 s-small s-aright s-abottom">
-                        <div>Az e-mail megnyitása böngészőben</div>
-                    </div>
+                        <h4 class="b s-rbig s-bold">Testbirds</h4> <span class="s-bold">Tech merítés</span> </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 s-small s-aright s-abottom"> <a href="*|ARCHIVE|*">Az e-mail megnyitása böngészőben</a> </div>
                 </div>
             </div>
             <div class="container emailintro emailcontent">
                 <div class="container-fluid">
-                    <h4 s-title>Szia *|FNAME|*!</h4>
-                    <p>Ez a Testbirds e heti hírlevele egyenesen a kemencéből.
-                    Szűrve, hogy neked már csak a legjobbakat kelljen elolvasnod!</p>
+                    <h4 class="s-title s-tbgreen s-big s-bold">Szia *|FNAME|*!</h4>
+                    <p>Ez a Testbirds e heti hírlevele egyenesen a kemencéből. Szűrve, hogy neked már csak a legjobbakat kelljen elolvasnod!</p>
                     <p>Kellemes olvasgatást!</p>
                     <div class="editors">
                         <div class="s-aright">
@@ -48,19 +43,65 @@
                 </div>
             </div>
             <div class="container emailcontent">
+                <!-- BLOCK START -->
                 <div class="categoryholder">
-                    <div class="categorytitle s-acenter">
-                        Category
-                    </div>
+                    <div class="categorytitle s-acenter"> <span>Category</span> </div>
                 </div>
+                <!-- BLOCK END -->
             </div>
             <div class="container emailcontent">
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4 testbg">
+                <!-- BLOCK START -->
+                <div class="row s-acard">
+                    <div class="col-tn-12 col-md-4 col-lg-4"> <a class="maintitle">Hmmm...</a>
+                        <p>It looks like we forgot to edit this text before sending out to *|LIST_SUBSCRIBERS|* people. In this case, you can let us know by replying to this e-mail.</p>
+                        <p>Thanks, and we promise that we'll do my best to avoid being so clumsy next time!</p>
                     </div>
-                    <div class="col-xs-12 col-md-8 col-lg-8 testbg">
-                        
+                    <div class="col-tn-12 col-md-8 col-lg-8 imgholder s-acenter"> <img src="https://gallery.mailchimp.com/6c2e8cb2eb78777979c074f79/images/2852fedd-217e-44ad-ab80-fcf995b58dbe.png"> </div>
+                </div>
+                <!-- BLOCK END -->
+                <!-- BLOCK START -->
+                <div class="container s-boxin">
+                    <hr class="separator minor"> </div>
+                <!-- BLOCK END -->
+                <!-- BLOCK START -->
+                <hr class="separator major">
+                <!-- BLOCK END -->
+                <div class="bloglinks">
+                    <div>Lesd meg a Testbirds blogot még több tartalomért!</div>
+                    <div>Legújabb bejegyzésünk: *|FEED:https://blog.testbirds.hu/feed/[$count=1,$content=titles]|*</div>
+                </div>
+                <hr class="minor">
+                <div class="sociallinks s-acenter">
+                    <a href="https://facebook.com/testbirds.hu" target="_blank"> <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png"> </a>
+                    <a href="https://twitter.com/Testbirds_HU" target="_blank"> <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png" alt=""> </a>
+                    <a href="https://linkedin.com/company/testbirds-magyarorsz-g" target="_blank"> <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-linkedin-48.png" alt=""> </a>
+                    <a href="https://testbirds.hu" target="_blank"> <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-link-48.png" alt=""> </a>
+                </div>
+                <hr class="minor">
+                <div class="footer">
+                    <div class="copyright"> *|INTERESTED:Lang:Sk|*
+                        <p>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved </p>*|END:INTERESTED|* *|INTERESTED:Lang:Cz|*
+                        <p>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved </p>*|END:INTERESTED|* *|INTERESTED:Lang:Hu|*
+                        <p>*|CURRENT_YEAR|* *|LIST:COMPANY|*, Minden jog fenntartva *|END:INTERESTED|*</p>
+                        <p>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|* *|END:IF|*</p>
                     </div>
+                    <div class="address">
+                        <div class="s-bold">
+                            *|INTERESTED:Lang:Hu|*<p>Postacímünk:</p>*|END:INTERESTED|*
+                            *|INTERESTED:Lang:Sk|*<p>Our mailing address is:</p>*|END:INTERESTED|*
+                            *|INTERESTED:Lang:Cz|*<p>Our mailing address is:</p>*|END:INTERESTED|* 
+                        </div>
+                        <p>*|HTML:LIST_ADDRESS_HTML|*</p>
+                    </div>
+                    <div class="unsubscribe">
+                        *|INTERESTED:Lang:Hu|*<p>Meg akarod változtatni ezeknek az e-maileknek az érkezését?</p>*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Sk|*<p>Want to change how you receive these emails?</p>*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Cz|*<p>Want to change how you receive these emails?</p>*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Hu|*<p><a href="*|UPDATE_PROFILE|*" target="_blank">Frissítheted a beállításaidat</a>, vagy <a href="*|UNSUB|*" target="_blank">leiratkozhatsz erről a listáról</a></p>*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Sk|*<p><a href="*|UPDATE_PROFILE|*" target="_blank">You can update your preferences</a> or <a href="*|UNSUB|*" target="_blank">unsubscribe from this list</a></p>*|END:INTERESTED|*
+                        *|INTERESTED:Lang:Cz|*<p><a href="*|UPDATE_PROFILE|*" target="_blank">You can update your preferences</a> or <a href="*|UNSUB|*" target="_blank">unsubscribe from this list</a></p>*|END:INTERESTED|* 
+                    </div>
+                    *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|* 
                 </div>
             </div>
         </div>
